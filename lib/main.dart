@@ -1,5 +1,5 @@
-import 'package:disenos/screens/basic_design.dart';
 import 'package:flutter/material.dart';
+import 'package:disenos/screens/basic_design.dart';
 
 void main() => runApp(const MyApp());
 

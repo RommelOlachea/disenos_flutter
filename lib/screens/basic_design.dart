@@ -7,7 +7,7 @@ class BasicDesignScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return const Scaffold(
       body: Center(
-        child: Text('HomeScreen'),
+        child: Image(image: AssetImage('assets/landscape.jpg')),
       ),
     );
   }
