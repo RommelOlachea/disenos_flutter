@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+
 import '../widgets/widgets.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -7,12 +8,14 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        body: Stack(
-      children: [
-        Background(),
-        _HomeBody(),
-      ],
-    ));
+      body: Stack(
+        children: [
+          Background(),
+          _HomeBody(),
+        ],
+      ),
+      bottomNavigationBar: CustomBottomNavigation(),
+    );
   }
 }
 
@@ -22,7 +25,6 @@ class _HomeBody extends StatelessWidget {
     return SingleChildScrollView(
       child: Column(
         children: [
-          //Titles
           PageTitle(),
         ],
       ),
