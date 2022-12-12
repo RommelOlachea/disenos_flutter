@@ -1,3 +1,4 @@
+import 'package:disenos/widgets/card_table.dart';
 import 'package:flutter/material.dart';
 
 import '../widgets/widgets.dart';
@@ -26,6 +27,8 @@ class _HomeBody extends StatelessWidget {
       child: Column(
         children: [
           PageTitle(),
+          //Card Table
+          CardTable(),
         ],
       ),
     );
